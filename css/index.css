@@ -265,6 +265,7 @@ body {
 }
 .container .cards:last-child {
   padding: 5% 5%;
+  margin-bottom: 10%;
 }
 .container .cards:last-child p {
   font-size: 1.2rem;
@@ -297,13 +298,31 @@ body {
 .container .right-bottom h2 {
   font-size: 1.75rem;
   font-stretch: expanded;
+  color: gray;
 }
 .container .right-bottom h1 {
   font-size: 1.5rem;
   font-weight: 100;
   font-style: italic;
+  color: gray;
 }
 .container .right-bottom .experiences {
   margin-bottom: 0% 5%;
   width: 100%;
+}
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0% 1.5%;
+}
+.blackdot {
+  height: 8px;
+  width: 8px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0% 1.5%;
 }
