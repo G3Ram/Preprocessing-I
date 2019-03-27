@@ -185,7 +185,7 @@ body {
 .container header .top-title {
   width: 50%;
 }
-.container header .top-title img {
+.container header .top-title .titleimg {
   width: 50%;
   height: 50%;
 }
